@@ -5,7 +5,8 @@ on:
   push:
     tags:
       - ".*"
-
+    tags:
+      - "^\d{4}-\d{2}-\d{2}$"
 permissions:
   contents: write
 
